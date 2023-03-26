@@ -1,0 +1,76 @@
+.para{
+    max-width: 100%;
+}
+
+.container3 .card{
+    background-color: #b4aaf5;
+    width: 250px;
+    height: 300px;
+    padding: 2rem;
+    margin-left: 5rem;
+    border-radius: 1.5rem;
+}
+
+.container3 .card h3{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .card h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-size: 2rem;
+}
+
+hr{
+    border: 1px solid beige;
+    margin-bottom: 15%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li{
+    font-size: 150%;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem
+}
+
+
+.btn1{
+    margin-top: 2rem;
+    padding: .5rem 2rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 760px){
+    .container3{
+        display: block;
+    }   
+
+    .container3 .card{
+        margin-bottom: 2rem;
+    }
+}

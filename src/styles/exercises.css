@@ -1,0 +1,62 @@
+.home1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.home1 h2{
+    font-size: 4rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 1.5rem;
+}
+
+.content1 p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.container{
+    background:rgb(142, 188, 188) ;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    height: 30vh;
+    border-radius: .5rem;
+
+}
+
+.container .element{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.container .element .box-1,.box-2,.box-3,.box-4{
+    height: 10vh;
+    width: 20%;
+    background-color: rgb(189, 113, 113);
+    margin-top: 10vh;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.container .element h3{
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.container .element img{
+    width: 30%;
+    height: auto;
+    margin: 5%;
+    background: white;
+    border-radius: 1rem;
+}
+
+@media (max-width: 760px){
+    .container .element{
+        /* display: block; */
+    }
+}
