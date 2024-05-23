@@ -18,7 +18,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness Hub - Fitness & Nutrition</title>
+  <title>Fit-N-Fit</title>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- 
     - favicon
@@ -50,7 +50,7 @@
     <div class="container">
     
       <a href="#" class="logo">
-        Fitness Hub<span class="span">.</span>
+        Fit-N-Fit<span class="span">.</span>
       </a>
 
       <nav class="navbar" data-navbar>
